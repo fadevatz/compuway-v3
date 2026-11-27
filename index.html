@@ -234,104 +234,56 @@
 <body class="bg-white text-slate-800 font-sans antialiased selection:bg-blue-600 selection:text-white overflow-x-hidden">
 
   <!-- ========================================== -->
-  <!-- BARRA DE TOPO / IDENTIFICAÇÃO INSTITUCIONAL-->
-  <!-- ========================================== -->
-  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
-      
-      <!-- Logo Oficial Compuway Bebedouro -->
-      <a href="#" class="flex items-center group py-1">
-        <img 
-          src="assets/logo-compuway-bebedouro.png?v=2" 
-          alt="Compuway - Escola de Profissões Bebedouro-SP" 
-          class="h-10 sm:h-12 md:h-13 w-auto object-contain group-hover:opacity-95 transition"
-        />
-      </a>
-
-      <!-- Informações & CTA Rápido Topo -->
-      <div class="flex items-center gap-4">
-        <div class="hidden md:flex items-center gap-2 text-xs font-semibold text-slate-600 bg-slate-100 border border-slate-200 px-3.5 py-1.5 rounded-full">
-          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-          <span>Matrículas Abertas para Nova Turma</span>
-        </div>
-
-        <a 
-          href="https://wa.me/5517997756941?text=Ol%C3%A1!%20Vi%20a%20p%C3%A1gina%20do%20Curso%20de%20Ar-Condicionado%20da%20Compuway%20e%20gostaria%20de%20tirar%20d%C3%BAvidas."
-          target="_blank"
-          rel="noopener noreferrer"
-          onclick="trackEvent('click_whatsapp', { location: 'navbar_top' })"
-          class="inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm uppercase tracking-wider shadow-md shadow-emerald-600/20 transition">
-          <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.044c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.099.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.155.57 4.178 1.564 5.927l-1.572 5.742 5.894-1.547c1.677.915 3.593 1.434 5.626 1.434 6.627 0 12-5.373 12-12 0-6.627-5.373-12-12-12z"/>
-          </svg>
-          <span class="hidden sm:inline">WhatsApp</span>
-          <span class="sm:hidden">Conversar</span>
-        </a>
-      </div>
-
-    </div>
-  </header>
-
-  <!-- ========================================== -->
   <!-- SEÇÃO 01 — HERO (PRIMEIRA DOBRA)           -->
   <!-- ========================================== -->
-  <section id="hero" class="relative hero-light-spotlight pt-8 pb-16 md:pt-14 md:pb-24 border-b border-slate-200">
+  <section id="hero" class="relative hero-light-spotlight pt-8 pb-16 md:pt-12 md:pb-24 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
         
         <!-- Coluna Esquerda: Copywriting Persuasivo -->
-        <div class="lg:col-span-7 flex flex-col gap-6 text-left">
+        <div class="lg:col-span-7 flex flex-col gap-5 text-left">
 
-          <!-- Badge Localização / Modalidade -->
-          <div class="inline-flex items-center gap-2 self-start px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-brand-blue text-xs font-extrabold uppercase tracking-wider">
-            <span class="w-2 h-2 rounded-full bg-brand-blue"></span>
-            FORMAÇÃO PRESENCIAL • BEBEDOURO/SP
+          <!-- Logo Oficial Compuway Bebedouro -->
+          <a href="#" class="inline-flex items-center self-start group py-1">
+            <img 
+              src="assets/logo-compuway-bebedouro.png?v=2" 
+              alt="Compuway - Escola de Profissões Bebedouro-SP" 
+              class="h-11 sm:h-14 w-auto object-contain group-hover:opacity-95 transition"
+            />
+          </a>
+
+          <!-- Destaque Especial TOP 1 -->
+          <div class="inline-flex items-center gap-2.5 self-start px-4 py-2 rounded-full bg-gradient-to-r from-purple-700 via-violet-700 to-purple-800 text-white text-xs sm:text-sm font-black uppercase tracking-wider shadow-lg shadow-purple-700/25 border border-purple-400/40">
+            <span class="flex items-center justify-center w-5 h-5 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-slate-950 text-[11px] shadow-sm">
+              ★
+            </span>
+            <span>CURSO DE AR-CONDICIONADO <span class="text-amber-300">TOP 1 DA REGIÃO!</span></span>
           </div>
 
           <!-- Headline Principal -->
           <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 leading-tight tracking-tight">
-            NÃO É SÓ UM CURSO. <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-600">É TREINAMENTO PARA APRENDER FAZENDO!</span>
+            Não é só um curso. <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-600">É treinamento para aprender fazendo!</span>
           </h1>
 
           <!-- Subheadline -->
           <p class="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl">
-            Aprenda a instalar e limpar ar-condicionado na prática e descubra como transformar essa profissão em uma oportunidade de faturar mais de <span class="inline-block px-2 py-0.5 rounded-md bg-orange-100 text-orange-600 font-black border border-orange-200">R$ 10 mil</span> por mês!
+            Aprenda instalação, limpeza e diagnóstico de ar-condicionado na prática e descubra como faturar <span class="font-extrabold italic text-brand-blue">mais de R$ 10 mil por mês</span> com essa profissão!
           </p>
 
-          <!-- Destaques Visuais (Três Badges com Ícones Monocromáticos) -->
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
-            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
-              <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
-                <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
-                </svg>
-              </div>
-              <div class="text-xs font-extrabold text-slate-800 uppercase tracking-wide">
-                100% NA PRÁTICA
-              </div>
+          <!-- Diferenciais e Localização -->
+          <div class="flex flex-col gap-2.5 pt-1">
+            <div class="inline-flex flex-wrap items-center gap-x-2 gap-y-1 self-start px-4 py-3 rounded-xl bg-white border border-slate-200 shadow-sm text-xs sm:text-sm font-bold text-slate-800">
+              <span>Até 32h práticas</span>
+              <span class="text-brand-blue">•</span>
+              <span>Turmas de até 6 alunos</span>
+              <span class="text-brand-blue">•</span>
+              <span>Certificado</span>
+              <span class="text-brand-blue">•</span>
+              <span>Suporte pós-curso.</span>
             </div>
-
-            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
-              <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
-                <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-                </svg>
-              </div>
-              <div class="text-xs font-extrabold text-slate-800 uppercase tracking-wide">
-                CERTIFICADO
-              </div>
-            </div>
-
-            <div class="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-sm">
-              <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
-                <svg class="w-5 h-5 text-brand-blue" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
-                </svg>
-              </div>
-              <div class="text-xs font-extrabold text-slate-800 uppercase tracking-wide">
-                SUPORTE PÓS-CURSO
-              </div>
+            <div class="inline-flex items-center gap-2 text-sm font-bold text-slate-700">
+              <span>📍 Presencial em Bebedouro/SP.</span>
             </div>
           </div>
 
